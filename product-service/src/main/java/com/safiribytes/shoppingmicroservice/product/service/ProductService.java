@@ -23,8 +23,8 @@ public class ProductService {
                 .price(productRequest.price())
                 .build();
         productRepository.save(product);
-        //log.info("Product with name " + product.getName() + "created successfully.");
-        log.info("Product created successfully.");
+        log.info("Product with name " + product.getName() +", ID "+product.getId() + "created successfully.");
+//        log.info("Product created successfully.");
         return  new ProductResponse(product.getId(), product.getName(), product.getDescription(), product.getPrice());
     }
 
