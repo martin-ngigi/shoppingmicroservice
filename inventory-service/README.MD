@@ -6,7 +6,8 @@
 ### dependencies
 1. Lombok
 2. Spring Web
-3. spring data mongodb
+3. mysql jpa
+4. flyway
 4. testcontainers
 
 ### Commands
