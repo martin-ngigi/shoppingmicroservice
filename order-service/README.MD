@@ -8,6 +8,7 @@
 2. Spring Web
 3. spring data mongodb
 4. testcontainers
+5. wiremock
 
 ### Commands
 ```
