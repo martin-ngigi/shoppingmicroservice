@@ -8,7 +8,8 @@
 2. Spring Web
 3. mysql jpa
 4. flyway
-4. testcontainers
+5. testcontainers
+6. wiremock
 
 ### Commands
 ```
