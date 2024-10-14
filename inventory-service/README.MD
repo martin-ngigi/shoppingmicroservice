@@ -23,9 +23,12 @@ docker compose up -d
 ```
 - start mysql in mac
 ```
- brew service start mysql
+ brew services start mysql
 ```
 
 ## DB creation Steps
 1. Create 'order_service' table in mysql
 2. run the app, flyway will automatically create table rows. Make sure you have resources\db\migration\V1__init.sql file
+
+- Swagger Docs. http://localhost:8082/api-docs
+- API Docs. http://localhost:8082/swagger-ui.html

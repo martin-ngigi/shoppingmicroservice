@@ -8,6 +8,7 @@
 2. Spring Web
 3. spring data mongodb
 4. testcontainers
+5. Springdoc - for adding openapi with swagger.
 
 ### Commands
 ```
@@ -19,3 +20,6 @@ mvn clean compile
 ```
 docker compose up -d
 ```
+
+- Swagger Docs. http://localhost:8080/api-docs
+- API Docs. http://localhost:8080/swagger-ui.html
